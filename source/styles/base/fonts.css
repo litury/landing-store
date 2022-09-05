@@ -20,7 +20,7 @@
     font-family: 'YesevaOne';
     font-weight: 400;
     font-style: italic;
-    src: url('../fonts/YesevaOne-Regular.woff2') format('woff2'),
+    src: url('../fonts/Yeseva One-Regular.woff2 ') format(' woff2 '),
     url('../fonts/YesevaOne-Regular.woff') format('woff');
     font-display: swap;
 }

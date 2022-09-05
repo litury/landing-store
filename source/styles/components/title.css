@@ -1,0 +1,13 @@
+.title {
+    --space-y: 0;
+    --text-size: 23px;
+
+    margin-top: var(--space-y);
+    margin-bottom: var(--space-y);
+
+    font-size: var(--text-size);
+    font-family: "YesevaOne";
+    font-weight: 400;
+    line-height: 1;
+    word-wrap: break-word;
+}

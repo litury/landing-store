@@ -1,5 +1,17 @@
 .header {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+
+    padding: 23px 18px;
+
+    background-color: rgba(19, 19, 19, 1)
+}
+
+.header__link {
+    color: #ffffff;
+}
+
+.header__logo {
+    color: #e3b873;
 }
 

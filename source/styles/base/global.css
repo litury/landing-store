@@ -1,6 +1,5 @@
 .page__body {
     margin: 0;
-    padding-top: var(--block-height);
 
     font-family: 'NunitoSans';
     font-style: normal;
@@ -18,7 +17,7 @@
 
 .container {
     max-width: 1470px;
-    min-width: 405px;
+    min-width: 325px;
     margin: 0 auto;
     padding: 0 15px;
 

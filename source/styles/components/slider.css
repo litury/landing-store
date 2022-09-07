@@ -1,11 +1,11 @@
-.slider__img {
+.slider__images{
     position: relative;
 
     width: 100%;
     min-height: 241px;
 }
 
-.slider__img img {
+.slider__images .slider__image {
     position: absolute;
     left: 0;
     top: 0;
@@ -19,8 +19,12 @@
     background-size: cover;
     background-position: center center;
 
-
+    opacity: 0;
     transition: opacity 800ms ease;
+}
+
+.slider__images .slider__image.slider__image_state_active {
+    opacity: 1;
 }
 
 .slider__arrows {

@@ -1,0 +1,1 @@
+const sliderRoom1=new Image,sliderRoom2=new Image;sliderRoom1.src="assets/images/slider/slider-img-1.jpg",sliderRoom2.src="assets/images/slider/slider-img-2.jpg",document.getElementById("slider").appendChild(sliderRoom2);

@@ -1,0 +1,39 @@
+.slider {
+
+}
+
+
+.slider__content {
+    position: relative;
+}
+
+.slider__img {
+    display: block;
+
+    width: 100%;
+
+
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+
+.slider__button {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+
+    background-color: #e3b873;
+
+    border-radius: 50%;
+}
+
+.slider__button_state_prev {
+    top: 50%;
+    left: 14px;
+}
+
+.slider__button_state_next {
+    top: 50%;
+    right: 14px;
+}

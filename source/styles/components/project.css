@@ -1,0 +1,25 @@
+.project {
+    padding-top: 36px;
+
+    text-align: center;
+}
+
+.project__title {
+    max-width: 253px;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 22px;
+
+    color: #e3b873;
+}
+
+.project__subtitle {
+    max-width: 311px;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 72px;
+}
+
+

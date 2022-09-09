@@ -13,3 +13,12 @@
 
     text-transform: uppercase;
 }
+
+.title_color_white {
+    color: #fff;
+}
+
+.title_size_small {
+    --text-size: 14px;
+    color: #e3b873;
+}

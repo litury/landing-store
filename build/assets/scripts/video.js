@@ -1,0 +1,1 @@
+const frame=document.querySelector(".video__play"),video_placeholder=document.querySelector(".video__placeholder");function play(){frame.contentWindow.postMessage(JSON.stringify({event:"command",func:"playVideo",args:[]}),"*"),video_placeholder.style.display="none"}video_placeholder.addEventListener("click",play);

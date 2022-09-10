@@ -1,0 +1,135 @@
+.video {
+    margin-bottom: 200px;
+}
+
+.video__title {
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+.video__decor {
+    position: relative;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    max-width: 224px;
+}
+
+.video__svg {
+    display: block;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    margin-bottom: 40px;
+}
+
+.video__decor:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 50px;
+
+    display: block;
+    width: 32px;
+
+    border-bottom: 1px solid #e3b873;
+}
+
+.video__decor:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50px;
+
+    display: block;
+    width: 32px;
+
+    border-bottom: 1px solid #e3b873;
+}
+
+
+.video__content {
+    position: relative;
+
+    min-height: 207px;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 51px;
+}
+
+.video__placeholder {
+    position: absolute;
+    z-index: 2;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url('../images/video/video-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.video__placeholder:after {
+    content: '';
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+    background: rgba(0,0,0,.6);
+}
+
+.video__start {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 37px;
+    height: 37px;
+
+    background-color: #e3b873;
+    border-radius: 50%;
+}
+
+.video__content iframe {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video__content:after {
+    content: '';
+    position: absolute;
+    z-index: 999;
+    bottom: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: block;
+    width: 55px;
+
+    border-bottom: 2px solid #e3b873;
+}
+
+.video__text {
+    text-align: center;
+    line-height: 1.7
+}

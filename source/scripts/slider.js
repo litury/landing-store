@@ -139,10 +139,10 @@ function initSlider(options) {
     let sliderTime = sliderInfo.querySelector("#time");
     let sliderCost = sliderInfo.querySelector("#cost");
 
-    sliderCity.innerText = images[num].city;
-    sliderArea.innerText = images[num].area;
-    sliderTime.innerText = images[num].time;
-    sliderCost.innerText = images[num].cost;
+    sliderCity.textContent = images[num].city;
+    sliderArea.textContent = images[num].area;
+    sliderTime.textContent = images[num].time;
+    sliderCost.textContent = images[num].cost;
   }
 
   function initAutoplay() {
